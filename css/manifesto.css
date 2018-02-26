@@ -1,33 +1,40 @@
 /*Cmd=command + Shift + 7 */
 /*@todo Glas Wasser einschenken*/
 /*Imagesize and placement*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,900');
+
+
 .logo {
 	width: 80px;
 	height: auto;
 	display: block;
     margin-left: auto;
     margin-right: auto
-} 
+}
 /*Title size, color, margins and placement*/
 h1 {
 	font-size: 2em;
- 
-} 
+    font-weight: 100;
+
+}
 /*Items size, color, margins and placement*/
 p {
 	font-size: 1.5em;
- 
-} 
+    font-weight: 900;
+
+}
 /*background color dark*/
 .content{
 	display: block;
     margin-left: auto;
     margin-right: auto
-} 
+}
 body {
 	background-color: #3e3e3e;
     color: white;
    text-align: center;
-} 
-    
+    font-family: Roboto;
+}
+
 /*Layout margins and text alignment*/
